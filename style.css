@@ -1,0 +1,12 @@
+.menu {
+  display: inline;
+}
+
+.container {
+  display: flex;
+  gap: 5rem;
+}
+
+.container > img {
+  object-fit: contain;
+}

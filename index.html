@@ -3,29 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>paggy</title>
   </head>
   <body>
-    <h1>my name</h1>
-    <h2>my age</h2>
-    <h3>my style</h3>
-    <h4>my pet</h4>
-    <h5>my hobby</h5>
-    <h6>my birthmonth</h6>
-    <img src="./asset/paggy.jpg" />
-    <!-- <video width="320" height="240" controls autoplay="true">
-      <source
-        src="https://www.youtube.com/watch?v=YEM3nWkB-EE"
-        type="video/mp4"
-      />
-    </video> -->
+    <nav>
+      <div class="menu">
+        <h1>my name</h1>
+        <h2>my age</h2>
+        <h3>my style</h3>
+        <h4>my pet</h4>
+        <h5>my hobby</h5>
+        <h6>my birthmonth</h6>
+      </div>
+    </nav>
+    <div class="container">
+      <img src="./asset/paggy.jpg" width="420" height="315" />
 
-    <iframe
-      width="420"
-      height="315"
-      src="http://www.youtube.com/embed/YEM3nWkB-EE"
-      frameborder="0"
-      allowfullscreen
-    ></iframe>
+      <iframe
+        width="420"
+        height="315"
+        src="http://www.youtube.com/embed/YEM3nWkB-EE?autoplay=1&enable_js=1"
+        frameborder="0"
+        allowfullscreen
+        allow="autoplay"
+      ></iframe>
+
+      <video controls autoplay="true " width="420" height="315">
+        <source src="./asset/video.mp4" type="video/mp4" />
+      </video>
+    </div>
   </body>
 </html>
+
+<!-- width="420" height="315" -->
